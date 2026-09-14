@@ -1,0 +1,20 @@
+{
+  "name": "glop",
+  "interface": {
+    "displayName": "Glop"
+  },
+  "plugins": [
+    {
+      "name": "glop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/glop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

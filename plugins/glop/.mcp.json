@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "glop": {
+      "type": "http",
+      "url": "https://api.glop.es/api/v1/mcp"
+    }
+  }
+}

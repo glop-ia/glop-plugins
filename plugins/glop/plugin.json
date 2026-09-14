@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "glop",
+  "version": "0.1.0",
+  "description": "Conecta tu asistente de IA con el TPV Glop: consulta ventas, compras, stock y maestros, y registra albaranes de proveedor desde una foto o un PDF.",
+  "author": {
+    "name": "Glop Software",
+    "email": "desarrollo1@glop.es",
+    "url": "https://glop.es"
+  },
+  "homepage": "https://glop.es",
+  "repository": "https://bitbucket.org/glop/glop-plugins",
+  "license": "UNLICENSED",
+  "keywords": ["tpv", "hosteleria", "retail", "compras", "stock", "ventas", "glop"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Glop",
+        "shortDescription": "Tu TPV Glop en el chat: ventas, compras, stock y albaranes.",
+        "longDescription": "Glop conecta tu asistente con los datos de tu negocio: consulta ventas por día, hora, empleado o familia; analiza tus compras y la evolución de precios de proveedor; consulta existencias; y registra albaranes de compra a partir de una foto o un PDF, con confirmación antes de escribir nada. Requiere una licencia Glop con el complemento MCP contratado.",
+        "developerName": "Glop Software",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://glop.es",
+        "privacyPolicyURL": "https://glop.es/politica-de-privacidad",
+        "termsOfServiceURL": "https://glop.es/condiciones",
+        "defaultPrompt": [
+          "Comprueba el diagnóstico de la conexión con Glop",
+          "¿Cuánto he vendido esta semana comparado con la anterior?",
+          "¿Cuánto stock me queda de cerveza?",
+          "Registra este albarán de proveedor"
+        ],
+        "brandColor": "#50CD89",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png",
+        "screenshots": []
+      }
+    }
+  }
+}
