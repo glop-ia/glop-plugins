@@ -9,7 +9,7 @@
     "url": "https://glop.es"
   },
   "homepage": "https://glop.es",
-  "repository": "https://bitbucket.org/glop/glop-plugins",
+  "repository": "https://bitbucket.org/miglop/glop-plugins",
   "license": "UNLICENSED",
   "keywords": ["tpv", "hosteleria", "retail", "compras", "stock", "ventas", "glop"],
   "extensions": {
