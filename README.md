@@ -46,13 +46,26 @@ carpeta) y `agents/openai.yaml` con la dependencia del MCP.
 
 ### Claude Code
 
+Desde el repo público de GitHub (espejo de este repo):
+
+```bash
+claude plugin marketplace add desarrollo1-hash/glop-plugins
+claude plugin install glop@glop
+```
+
+O desde una copia local, para desarrollo:
+
 ```bash
 claude plugin marketplace add ./ruta/a/glop-plugins
-claude plugin install glop@glop
 ```
 
 ## Publicar
 
+- **Claude Code (marketplace community de Anthropic)**: el repo público de GitHub
+  https://github.com/desarrollo1-hash/glop-plugins es el que se envía en
+  https://platform.claude.com/plugins/submit. Antes: `claude plugin validate .` en verde.
+  Si lo aprueban, se instala con `/plugin marketplace add anthropics/claude-plugins-community`
+  y `/plugin install glop@claude-community`.
 - **Workspace de ChatGPT**: desde https://chatgpt.com/plugins → Personal → Publish (solo
   admins). No sale al directorio público.
 - **Directorio público** (ChatGPT + Codex): https://platform.openai.com/plugins → Create

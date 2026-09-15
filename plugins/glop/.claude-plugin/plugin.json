@@ -4,6 +4,7 @@
   "description": "Conecta tu asistente de IA con el TPV Glop: consulta ventas, compras, stock y maestros, y registra albaranes de proveedor desde una foto o un PDF.",
   "author": { "name": "Glop Software", "email": "desarrollo1@glop.es", "url": "https://glop.es" },
   "homepage": "https://glop.es",
+  "repository": "https://github.com/desarrollo1-hash/glop-plugins",
   "license": "UNLICENSED",
   "keywords": ["tpv", "hosteleria", "retail", "compras", "stock", "ventas", "glop"],
   "mcpServers": "./.mcp.json"
