@@ -19,7 +19,7 @@ glop-plugins/
         ├── mcp.json                   # servidor MCP remoto (streamable-http)
         ├── .claude-plugin/plugin.json # compatibilidad Claude Code
         ├── .mcp.json                  # compatibilidad Claude Code
-        ├── assets/                    # icono y logo (pendientes)
+        ├── assets/                    # icono (composer) y logo 800×800
         └── skills/
             ├── alta-albaran-compra/   # foto/PDF de albarán → documento de compra en Glop
             ├── analisis-ventas/       # preguntas sobre ventas (glop_ventas_*)
