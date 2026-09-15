@@ -62,5 +62,7 @@ claude plugin install glop@glop
 
 ## Mantener las skills
 
-`alta-albaran-compra` es copia de `docs/mcp/skill-alta-albaran/` de GlopApiRest (con el
-`name` de la carpeta). Si cambia allí, hay que copiarla aquí; no hay sincronización.
+Las skills dicen **en qué orden** hacer las cosas y **cómo hablar con el usuario**. Las reglas
+de negocio viven en el servidor (descripciones y respuestas de las tools): no se duplican
+aquí, para que al cambiar una tool no haya un segundo texto que barrer. `alta-albaran-compra`
+sustituye a la versión larga de `docs/mcp/skill-alta-albaran/` de GlopApiRest.
