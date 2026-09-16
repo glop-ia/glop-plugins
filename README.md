@@ -23,7 +23,8 @@ glop-plugins/
         └── skills/
             ├── alta-albaran-compra/   # foto/PDF de albarán → documento de compra en Glop
             ├── analisis-ventas/       # preguntas sobre ventas (glop_ventas_*)
-            └── analisis-compras/      # gasto, precios de proveedor y stock (glop_compras_*)
+            ├── analisis-compras/      # gasto, precios de proveedor y stock (glop_compras_*)
+            └── informe-compras-asesor/ # PDF de compras del periodo + correo para el asesor
 ```
 
 Cada skill lleva `SKILL.md` (frontmatter `name` + `description`, el `name` coincide con la
