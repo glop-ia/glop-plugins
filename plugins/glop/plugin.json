@@ -10,7 +10,7 @@
   },
   "homepage": "https://glop.es",
   "repository": "https://github.com/desarrollo1-hash/glop-plugins",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": ["tpv", "hosteleria", "retail", "compras", "stock", "ventas", "glop"],
   "extensions": {
     "com.openai": {

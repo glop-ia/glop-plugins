@@ -5,7 +5,7 @@
   "author": { "name": "Glop Software", "email": "desarrollo1@glop.es", "url": "https://glop.es" },
   "homepage": "https://glop.es",
   "repository": "https://github.com/desarrollo1-hash/glop-plugins",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": ["tpv", "hosteleria", "retail", "compras", "stock", "ventas", "glop"],
   "mcpServers": "./.mcp.json"
 }
