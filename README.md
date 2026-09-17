@@ -1,6 +1,12 @@
-# glop-plugins
+<p align="center">
+  <img src="plugins/glop/assets/logo-256.png" alt="Glop" width="140">
+</p>
 
-Marketplace y plugins oficiales de Glop para ChatGPT, Codex y Claude Code.
+<h1 align="center">glop-plugins</h1>
+
+<p align="center">
+  Marketplace y plugins oficiales de Glop para ChatGPT, Codex y Claude Code.
+</p>
 
 Un plugin empaqueta el **servidor MCP de Glop** (`https://api.glop.es/api/v1/mcp`, vive en
 GlopApiRest) junto con **skills** que enseñan al modelo a usar sus tools en flujos concretos.
