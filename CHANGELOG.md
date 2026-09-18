@@ -4,6 +4,15 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el versionado,
 [SemVer](https://semver.org/lang/es/).
 
+## [Sin publicar]
+
+### Cambiado
+
+- Skill `informe-ventas-gestor`: pregunta si el informe se quiere en PDF, en CSV o en los
+  dos. El CSV lleva una fila por documento y tipo de IVA, en formato de hoja de cálculo
+  española (`;`, coma decimal, UTF-8 con BOM), sin totales ni notas para que se pueda
+  importar tal cual, y se comprueba que suma el total del periodo antes de entregarlo.
+
 ## [1.0.1] - 2026-09-18
 
 ### Añadido
