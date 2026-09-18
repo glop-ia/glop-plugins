@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "glop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conecta tu asistente de IA con el TPV Glop: consulta ventas, compras, stock y maestros, y registra albaranes de proveedor desde una foto o un PDF.",
   "author": {
     "name": "Glop Software",
