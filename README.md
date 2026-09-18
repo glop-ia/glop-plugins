@@ -29,6 +29,9 @@ glop-plugins/
         └── skills/
             ├── alta-albaran-compra/   # foto/PDF de albarán → documento de compra en Glop
             ├── analisis-ventas/       # preguntas sobre ventas (glop_ventas_*)
+            ├── cierre-del-dia/        # resumen de un día: total, efectivo/tarjeta, top, incidencias
+            ├── revision-carta/        # productos estrella, los que no salen, antes/después de precio
+            ├── informe-ventas-gestor/ # PDF de ventas con IVA desglosado + correo para el gestor
             ├── analisis-compras/      # gasto, precios de proveedor y stock (glop_compras_*)
             └── informe-compras-asesor/ # PDF de compras del periodo + correo para el asesor
 ```

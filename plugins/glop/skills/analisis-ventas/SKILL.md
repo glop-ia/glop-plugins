@@ -62,7 +62,7 @@ muchas veces desde el móvil y a mitad de servicio. Quiere la cifra, no un infor
 | Número de tickets, ticket más alto, último ticket, un ticket por su número | `glop_ventas_get_top_tickets` |
 | Anulaciones, invitaciones, borrados de ticket | `glop_ventas_get_incidents_analysis` |
 | Mejores clientes | `glop_ventas_get_top_customers` |
-| Informe para el gestor (facturas, simplificadas, IVA por tramos) | `glop_informe_ventas_gestor` |
+| Informe para el gestor (facturas, simplificadas, IVA por tramos) | `glop_informe_ventas_gestor` (para el PDF completo, skill `informe-ventas-gestor`) |
 | Consumo de personal | `glop_informe_consumo_personal` |
 
 Si la pregunta combina dos dimensiones ("efectivo y tarjeta de cada día de la semana"),
@@ -183,11 +183,13 @@ cómo la has hecho**. No uses el tiempo, los festivos ni nada que no hayas consu
 Si pide la información en Excel, CSV o PDF y tu entorno puede crear ficheros, genéralo con
 los datos que has sacado, sin añadir ninguno. Si no puede, dale la tabla lista para copiar
 y dilo; no prometas un enlace de descarga que no existe. Para un informe para la gestoría,
-usa `glop_informe_ventas_gestor`.
+usa la skill `informe-ventas-gestor`.
 
 ## Lo que esta skill no hace
 
 - No consulta compras ni stock (para eso, `analisis-compras` y `glop_stock_consultar`).
+- No hace el resumen completo de un día (`cierre-del-dia`) ni la revisión de la carta
+  (`revision-carta`): si la pregunta es esa, usa esas skills.
 - No ve lo que está pasando ahora en el TPV: mesas abiertas, cuentas sin cobrar, saldo de
   apertura, salidas de caja ni arqueo. Solo ve tickets cobrados.
 - No da el precio de venta de un artículo; como mucho, el precio medio al que se ha vendido

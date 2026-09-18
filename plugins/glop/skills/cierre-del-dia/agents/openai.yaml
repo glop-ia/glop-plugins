@@ -1,0 +1,7 @@
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "glop"
+      description: "Servidor MCP de Glop: maestros, compras, stock, informes y analitica del TPV del sitio autenticado"
+      transport: "streamable_http"
+      url: "https://api.glop.es/api/v1/mcp"

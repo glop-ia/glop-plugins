@@ -6,6 +6,18 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 
 ## [Sin publicar]
 
+### Añadido
+
+- Skill `cierre-del-dia`: el resumen de un día (o de un fin de semana) en un solo mensaje:
+  total con y sin IVA, efectivo contra tarjeta, tickets y ticket medio, lo más vendido, hora
+  fuerte, anulaciones e invitaciones y comparación con el mismo día de la semana anterior.
+- Skill `informe-ventas-gestor`: informe en PDF de las ventas del periodo para el gestor, con
+  `glop_informe_ventas_gestor` (IVA por tipo, simplificadas por día y serie, facturas con los
+  datos del cliente y rectificativas), y el correo de envío.
+- Skill `revision-carta`: análisis guiado de la carta o el surtido: productos estrella, los
+  que casi no salen, qué sube y qué baja entre dos periodos y el antes y el después de un
+  cambio de precio, separando el dato de la opinión.
+
 ### Cambiado
 
 - Skill `analisis-ventas`: reescrita a partir de lo que preguntan los clientes en el chat de
