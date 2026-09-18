@@ -1,13 +1,13 @@
 {
   "name": "glop",
   "owner": { "name": "Glop Software", "email": "desarrollo1@glop.es" },
-  "metadata": { "description": "Plugins oficiales de Glop", "version": "0.1.0" },
+  "metadata": { "description": "Plugins oficiales de Glop", "version": "1.0.0" },
   "plugins": [
     {
       "name": "glop",
       "source": "./plugins/glop",
       "description": "Conecta tu asistente de IA con el TPV Glop: ventas, compras, stock y alta de albaranes.",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "category": "productivity"
     }
   ]

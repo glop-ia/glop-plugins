@@ -56,7 +56,7 @@ carpeta) y `agents/openai.yaml` con la dependencia del MCP.
 Desde el repo público de GitHub (espejo de este repo):
 
 ```bash
-claude plugin marketplace add desarrollo1-hash/glop-plugins
+claude plugin marketplace add glop-ia/glop-plugins
 claude plugin install glop@glop
 ```
 
@@ -66,10 +66,22 @@ O desde una copia local, para desarrollo:
 claude plugin marketplace add ./ruta/a/glop-plugins
 ```
 
+## Versiones
+
+Se versiona con [SemVer](https://semver.org/lang/es/) y cada versión es una
+[release de GitHub](https://github.com/glop-ia/glop-plugins/releases) con su tag `vX.Y.Z`
+y el paquete `glop-X.Y.Z.zip` (la carpeta `plugins/glop` lista para instalar). Para sacar una:
+
+1. Subir `version` en `.claude-plugin/marketplace.json` (las dos) y en los dos `plugin.json`.
+2. Anotar los cambios en `CHANGELOG.md`.
+3. Commit, tag anotado `vX.Y.Z` y push a **los dos** remotos (`origin` y `github`, con `--tags`).
+4. `gh release create vX.Y.Z glop-X.Y.Z.zip --repo glop-ia/glop-plugins`, con las notas del
+   changelog. El zip sale de `git archive --format=zip --prefix=glop/ vX.Y.Z:plugins/glop`.
+
 ## Publicar
 
 - **Claude Code (marketplace community de Anthropic)**: el repo público de GitHub
-  https://github.com/desarrollo1-hash/glop-plugins es el que se envía en
+  https://github.com/glop-ia/glop-plugins es el que se envía en
   https://platform.claude.com/plugins/submit. Antes: `claude plugin validate .` en verde.
   Si lo aprueban, se instala con `/plugin marketplace add anthropics/claude-plugins-community`
   y `/plugin install glop@claude-community`.
