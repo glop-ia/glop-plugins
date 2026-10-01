@@ -4,6 +4,14 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el versionado,
 [SemVer](https://semver.org/lang/es/).
 
+## [1.0.5] - 2026-10-01
+
+### Cambiado
+
+- Ficha de OpenAI: la categoría vuelve a `Productivity`. `Business` no consta entre las
+  categorías del dashboard y el portal no la podía confirmar; `Productivity` sí está en uso
+  en plugins ya aprobados. Se mantiene la descripción en inglés de la 1.0.4.
+
 ## [1.0.4] - 2026-10-01
 
 ### Cambiado
@@ -76,6 +84,7 @@ Primera versión publicada.
 - Icono, logo y color de marca.
 - Licencia MIT.
 
+[1.0.5]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.5
 [1.0.4]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.4
 [1.0.3]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.3
 [1.0.2]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.2
