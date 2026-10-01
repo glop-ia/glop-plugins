@@ -4,6 +4,15 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el versionado,
 [SemVer](https://semver.org/lang/es/).
 
+## [1.0.3] - 2026-10-01
+
+### Cambiado
+
+- Ficha de OpenAI ajustada a la revisión del portal: subtítulo de 30 caracteres o menos
+  ("Tu TPV Glop en el chat"), tres prompts de ejemplo en vez de cuatro (se quita el de
+  diagnóstico de la conexión) y la descripción ya no menciona licencias ni complementos
+  contratados.
+
 ## [1.0.2] - 2026-09-18
 
 ### Cambiado
@@ -58,6 +67,7 @@ Primera versión publicada.
 - Icono, logo y color de marca.
 - Licencia MIT.
 
+[1.0.3]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.3
 [1.0.2]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.2
 [1.0.1]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.1
 [1.0.0]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.0
