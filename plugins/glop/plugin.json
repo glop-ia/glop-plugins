@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "app-6aa9260aeb0081919463d13190168d60",
-  "version": "1.0.3",
-  "description": "Conecta tu asistente de IA con el TPV Glop: consulta ventas, compras, stock y maestros, y registra albaranes de proveedor desde una foto o un PDF.",
+  "version": "1.0.4",
+  "description": "Connects your AI assistant to the Glop point-of-sale (POS) system: query sales, purchases, stock and master data, and register supplier delivery notes from a photo or PDF.",
   "author": {
     "name": "Glop Software",
     "email": "desarrollo1@glop.es",
@@ -16,10 +16,10 @@
     "com.openai": {
       "interface": {
         "displayName": "Glop",
-        "shortDescription": "Tu TPV Glop en el chat",
-        "longDescription": "Glop conecta tu asistente con los datos de tu negocio: consulta ventas por día, hora, empleado o familia; analiza tus compras y la evolución de precios de proveedor; consulta existencias; y registra albaranes de compra a partir de una foto o un PDF, con confirmación antes de escribir nada. Para usarlo, inicia sesión con tu cuenta de Glop.",
+        "shortDescription": "POS sales, purchases and stock",
+        "longDescription": "Glop is a point-of-sale (POS) system for restaurants, bars and retail shops. This plugin connects ChatGPT to the Glop POS of your business so you can query and manage its data in conversation.\n\nWhat you can do:\n- Sales: revenue by day, hour, shift, employee, product family or location; best-selling products; cash vs. card; comparisons between periods.\n- Purchases: spending by supplier, most purchased items and how supplier prices change over time.\n- Stock: current stock levels by item and warehouse.\n- Supplier delivery notes: read a photo or PDF of a delivery note, match the supplier and items, and register it in the POS after you confirm.\n- Reports for your accountant with the sales and VAT of a period.\n\nWho it is for: owners and managers of businesses that use Glop as their POS. You sign in with your Glop account.\n\nLimitations: it only accesses the data of the business you sign in with; it never writes to the POS (delivery notes, items, suppliers) without your explicit confirmation; and it cannot see the physical cash in the drawer or the tables that are open right now.",
         "developerName": "Glop Software",
-        "category": "Productivity",
+        "category": "Business",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://glop.es",
         "privacyPolicyURL": "https://glop.es/politica-de-privacidad",

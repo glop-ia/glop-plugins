@@ -4,6 +4,15 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el versionado,
 [SemVer](https://semver.org/lang/es/).
 
+## [1.0.4] - 2026-10-01
+
+### Cambiado
+
+- Ficha de OpenAI en inglés y con la categoría `Business` en vez de `Productivity`, tras la
+  revisión del portal ("We couldn't confirm the selected category"). La descripción explica
+  ahora qué es Glop (un TPV para hostelería y comercio), qué permite hacer el plugin, a quién
+  va dirigido y sus limitaciones. Subtítulo: "POS sales, purchases and stock".
+
 ## [1.0.3] - 2026-10-01
 
 ### Cambiado
@@ -67,6 +76,7 @@ Primera versión publicada.
 - Icono, logo y color de marca.
 - Licencia MIT.
 
+[1.0.4]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.4
 [1.0.3]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.3
 [1.0.2]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.2
 [1.0.1]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.1
