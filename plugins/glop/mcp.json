@@ -3,7 +3,19 @@
   "mcpServers": {
     "glop": {
       "type": "streamable-http",
-      "url": "https://api.glop.es/api/v1/mcp"
+      "url": "https://api.glop.es/api/v1/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "provided",
+              "clientId": "a277c36f-689a-451c-bd38-57bf6c20a50d",
+              "tokenEndpointAuthMethod": "client_secret_basic"
+            }
+          }
+        }
+      }
     }
   }
 }

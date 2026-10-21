@@ -4,6 +4,15 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el versionado,
 [SemVer](https://semver.org/lang/es/).
 
+## [1.0.7] - 2026-10-21
+
+### Cambiado
+
+- `mcp.json` (paquete de OpenAI): se declara el cliente OAuth preregistrado del MCP
+  (`extensions["com.openai"].auth`, `client.mode: provided`). Sin él, el portal marcaba la
+  autorización como no disponible y no se podía conectar el MCP para la revisión. El secreto
+  del cliente no va en el paquete: se introduce en el portal al conectar.
+
 ## [1.0.6] - 2026-10-21
 
 ### Cambiado
@@ -92,6 +101,7 @@ Primera versión publicada.
 - Icono, logo y color de marca.
 - Licencia MIT.
 
+[1.0.7]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.7
 [1.0.6]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.6
 [1.0.5]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.5
 [1.0.4]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.4
