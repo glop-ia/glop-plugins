@@ -4,6 +4,14 @@ Todos los cambios relevantes del plugin Glop se anotan aquí. El formato sigue
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el versionado,
 [SemVer](https://semver.org/lang/es/).
 
+## [1.0.6] - 2026-10-21
+
+### Cambiado
+
+- Nueva solicitud en el portal de OpenAI: se descarta el intento de la 1.0.5, que fue rechazado
+  porque el MCP no se había dado de alta con los datos de prueba correctos. El contenido del
+  plugin no cambia; solo se sube la versión para presentarlo de nuevo.
+
 ## [1.0.5] - 2026-10-01
 
 ### Cambiado
@@ -84,6 +92,7 @@ Primera versión publicada.
 - Icono, logo y color de marca.
 - Licencia MIT.
 
+[1.0.6]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.6
 [1.0.5]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.5
 [1.0.4]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.4
 [1.0.3]: https://github.com/glop-ia/glop-plugins/releases/tag/v1.0.3
